@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(180deg, #0f3b35 0%, #0a1e28 100%); 
+    font-family: 'Bitter', serif;
+    color: #F4EFE5; /* Color del texto */
+}
+
+h1, h2, h3 {
+    font-family: 'Bitter', serif;
+    color: #b99658; 
+}
+
+h1 {
+    text-align: center;
+    font-size: 3.5rem;
+    max-width: 800px;
+    margin:0 auto; 
+}
+
+h2 {
+    font-size: 2.5rem;
+    max-width: 800px;
+    margin:0 auto; 
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #F4EFE5;
+}
+
+/* Cuadro de fondo gris para los textos */
+section {
+    background-color: rgba(128, 128, 128, 0.3); /* Fondo gris con poca opacidad */
+    padding: 20px; /* Espaciado interior para que el texto no esté en los bordes */
+    margin: 20px auto; /* Espaciado exterior */
+    max-width: 800px; /* Limita el ancho del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+a {
+    color: #b99658; /* Color dorado, puedes cambiarlo por el que prefieras */
+    text-decoration: none; /* Opcional, elimina el subrayado */
+}
+
+h1, h2, h3, p {
+    text-align: left;
+    margin-bottom: 1.5rem;
+}
+
+li {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #F4EFE5;
+}
+
+/* Ajuste para listas dentro del cuadro gris */
+ul {
+    padding-left: 40px;
+}
